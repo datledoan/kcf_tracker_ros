@@ -1,0 +1,11 @@
+std_msgs/Header header
+string object_name
+bool detected
+int32 frame
+float32[3] position
+float32[3] attitude
+float32[4] attitude_q
+float32[2] sight_angle
+int32[2] pixel_position
+float32 yaw_error
+int32 category
